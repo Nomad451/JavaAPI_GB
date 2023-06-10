@@ -1,4 +1,4 @@
-package Lesson_03;
+package lections.lection3;
 
 public class Ex001 {
     static int[] AddItemInArray(int[] array, int item) {
