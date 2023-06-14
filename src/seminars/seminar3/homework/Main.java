@@ -43,7 +43,11 @@ public class Main {
     }
 
     static int averageValue(ArrayList<Integer> list) {
-        int aver = list.size() / 2;
+        int sum = 0;
+        for (Integer i : list) {
+            sum += i;
+        }
+        int aver = sum / list.size();
         return aver;
     }
 }
