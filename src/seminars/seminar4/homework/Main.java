@@ -24,6 +24,6 @@ public class Main {
             if (word.equals("exit")) break;
         }
 
+        sc.close();
     }
-
 }
