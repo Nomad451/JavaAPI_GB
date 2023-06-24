@@ -20,7 +20,6 @@ public class Main {
             if (word.equals("revert")) {
                 list.removeFirst();
                 list.removeFirst();
-                System.out.println(list);
             }
             if (word.equals("exit")) break;
         }
