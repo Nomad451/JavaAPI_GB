@@ -1,4 +1,4 @@
-package ru.gb.lesson6;
+package seminars.seminar6.homework;
 
 public class Homework {
 

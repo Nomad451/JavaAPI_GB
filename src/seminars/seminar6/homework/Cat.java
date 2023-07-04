@@ -1,4 +1,4 @@
-package ru.gb.lesson6;
+package seminars.seminar6.homework;
 
 import java.util.Objects;
 
@@ -11,12 +11,12 @@ public class Cat {
 
     private String name; // поле, содержащее имя кота
     private int appetite; // аппетит кота (столько он съедает за раз)
-    private boolean satiety; // сытость (голодный или нет)
+    private int satiety; // сытость (голодный или нет)
 
-    public Cat(String name, int appetite) {
+    public Cat(String name, int appetite, int satiety) {
         this.name = name;
         this.appetite = appetite;
-        satiety = false;
+        this.satiety = satiety;
     }
 
     // getter
@@ -25,10 +25,9 @@ public class Cat {
     }
 
     public void eat(Plate plate) {
-        if (satiety) {
-            return;
+        if (satiety > 0 && satiety <= 10) {
+            //реализация шкалы голода
         }
-
         satiety = plate.decreaseFood(appetite);
     }
 

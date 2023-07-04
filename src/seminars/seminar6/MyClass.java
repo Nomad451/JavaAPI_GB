@@ -1,4 +1,4 @@
-package ru.gb.lesson6;
+package seminars.seminar6;
 
 @MyAnno(parameter = "asdfadf")
 public class MyClass {

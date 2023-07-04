@@ -1,4 +1,7 @@
-package ru.gb.lesson6;
+package seminars.seminar6;
+
+import seminars.seminar6.homework.Cat;
+import seminars.seminar6.homework.Plate;
 
 import java.util.ArrayList;
 import java.util.List;

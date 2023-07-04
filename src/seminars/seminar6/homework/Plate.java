@@ -1,4 +1,4 @@
-package ru.gb.lesson6;
+package seminars.seminar6.homework;
 
 public class Plate {
 
@@ -22,12 +22,11 @@ public class Plate {
         }
     }
 
-    public boolean decreaseFood(int food) {
+    public int decreaseFood(int food) {
         if (this.food >= food) {
             this.food -= food;
-            return true;
         }
-        return false;
+        return food;
     }
 
     @Override

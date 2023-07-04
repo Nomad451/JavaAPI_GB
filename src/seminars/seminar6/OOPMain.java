@@ -1,11 +1,14 @@
-package ru.gb.lesson6;
+package seminars.seminar6;
+
+import seminars.seminar6.homework.Cat;
+import seminars.seminar6.homework.Plate;
 
 import java.util.HashSet;
 
 public class OOPMain {
 
     public static void main(String[] args) {
-        Cat murzik = new Cat("Murzik", 150);
+        Cat murzik = new Cat("Murzik", 150, 5);
         Plate plate = new Plate(150);
 
         murzik.eat(plate);
@@ -15,8 +18,8 @@ public class OOPMain {
         System.out.println(plate);
 
 
-        Cat first = new Cat("Name", 150);
-        Cat second = new Cat("Name", 100);
+        Cat first = new Cat("Name", 150, 6);
+        Cat second = new Cat("Name", 100, 8);
 
         System.out.println(first == second); // false
         System.out.println(first.equals(second));
